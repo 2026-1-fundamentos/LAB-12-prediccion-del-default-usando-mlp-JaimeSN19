@@ -13,7 +13,6 @@ MODEL_FILENAME = "files/models/model.pkl.gz"
 MODEL_COMPONENTS = [
     "OneHotEncoder",
     "PCA",
-    "StandardScaler",
     "SelectKBest",
     "MLPClassifier",
 ]
